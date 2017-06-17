@@ -12,6 +12,7 @@ body,html{
     width: 100%;
     margin: 0;
     padding: 0;
+    min-width: 660px;
 }
 .bar {
     font-size: 0px;
@@ -29,7 +30,8 @@ li {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
+    vertical-align: middle;
+    min-width: 220px;
 }
 
 li:nth-child(1) {
